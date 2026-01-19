@@ -8,6 +8,7 @@
 <body>
     <h1>Ramen Shop</h1>
     <img src="https://static.wikia.nocookie.net/yokaiwatch/images/4/45/Everything_Ramen_YWWW.png/revision/latest?cb=20221105032729" alt = "Everything Ramen" width = 500px> </img>
+    <p>Ramen <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJPq2cFy81IxqXvZ8ILBDCCq-9h1azX3h0uA&s" alt = "Ramen Cup" width = 256px></p> <p>Icon</p>
     <form>
   <label for="fname">The Name:</label><br>
   <input type="text" id="fname" name="fname" value="What Is Your Name?"><br>
@@ -18,8 +19,34 @@
   <label for="lname">Text:</label><br>
   <input type="text" id="lname" name="lname" value="Enter Some Text"><br><br>
   <input type="submit" value="Submit">
-  <p>Ramen <img src="https://static.wikia.nocookie.net/yokaiwatch/images/4/45/Everything_Ramen_YWWW.png/revision/latest?cb=20221105032729" alt = "Everything Ramen" width = 64px></p> <p>Icon</p>
+  
     <p>Hello &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ramen</p>
+
+    <label for="Protein">Choose a Protein:</label>
+    <select name="Protein" id="Protein">
+    <option value="Beef">Beef</option>
+    <option value="Piglin">Piglin</option>
+    <option value="Chicken">Chicken</option>
+    <option value="Kraken">Kraken</option>
+    <option value="Tofu(VGN)">Tofu(VGN)</option>
+    </select>
+
+    <p>Pickup or Delivery:</p>
+    <input type="radio" id="Pickup" name="Collection" value="PICKUP">
+    <label for="Pickup">Pickup</label><br>
+    <input type="radio" id="Delivery" name="Collection" value="DELIVERY">
+    <label for="Delivery">Delivery</label><br>
+    </input> <br>
+
+    <p> Select Some Ingredients To Mix With Your Ramen</p>
+    <input type="checkbox" id="Ingredient1" name="Ingredient1" value="Bike">
+  <label for="Ingredient1"> I Want Sushi</label><br>
+  <input type="checkbox" id="Ingredient2" name="Ingredient2" value="Car">
+  <label for="Ingredient2"> I Want Tempura</label><br>
+  <input type="checkbox" id="Ingredient3" name="Ingredient3" value="Boat">
+  <label for="Ingredient3"> I Want Sukiyaki</label><br><br>
+  <input type="submit" value="Submit">
+
     </form>
 
     <script src="src/myJs.js"></script>
